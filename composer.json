@@ -1,0 +1,25 @@
+{
+    "name": "blackfox/blackfox",
+    "description": "Les fichiers de base pour le framework Blackfox",
+    "keywords": ["blackfox", "framework"],
+    "type": "project",
+    "require": {
+        "php": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christophe Dufour",
+            "email": "blackfox@proximus.be"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.1",
+        "fakerphp/faker": "^1.23"
+    }
+}
