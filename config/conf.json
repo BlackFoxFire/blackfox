@@ -1,0 +1,10 @@
+{
+    "database": {
+        "dbname": "",
+        "username": "",
+        "password": ""
+    },
+    "global": [],
+    "backend": [],
+    "frontend": []
+}
