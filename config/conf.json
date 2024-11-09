@@ -1,10 +1,14 @@
 {
     "database": {
+        "api": "PDO",
         "dbname": "",
         "username": "",
         "password": ""
     },
     "global": [],
-    "backend": [],
+    "backend": {
+        "admin": "admin",
+        "password": "$2y$10$GMUcnMvrkUcnlodcQ6gMXeoiNMdCYizY61Mlq3uUqI7rX9CnMIIPa"
+    },
     "frontend": []
 }

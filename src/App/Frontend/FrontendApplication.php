@@ -1,11 +1,11 @@
 <?php
 
-/*
-*
-* FrontendApplication.php
-* Application orientée utilisateur.
-*
-*/
+/**
+ * FrontendApplication.php
+ * @Auteur: Christophe Dufour
+ * 
+ * Application orientée utilisateur
+ */
 
 namespace App\Frontend;
 
@@ -14,14 +14,18 @@ use Blackfox\Application;
 class FrontendApplication extends Application
 {
 
+	protected string $nameSpace;
+
 	/**
 	 * Constructeur
 	 * 
+	 * @param string $rootDir
+	 * Dossier racine de l'application
 	 */
-	public function __construct(string $rootDir, string $appDir, string $appName)
+	public function __construct(string $rootDir)
 	{
 		$this->name = "Frontend";
-		parent::__construct($rootDir, $appDir, $appName);
+		parent::__construct($rootDir, __DIR__, __NAMESPACE__);
 	}
 
 	/**
@@ -42,4 +46,5 @@ class FrontendApplication extends Application
 		$this->httpResponse->setView($controller->view());
 		$this->httpResponse->render();
 	}
+	
 }
