@@ -8,20 +8,19 @@
     "packages": [
         {
             "name": "blackfox/framework",
-            "version": "1.3.2",
+            "version": "1.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BlackFoxFire/framework.git",
-                "reference": "7b34bd8721564a20601054fb94054971fa733056"
+                "reference": "0f55a0cadf426ae876f9488911075e2eae12ade6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BlackFoxFire/framework/zipball/7b34bd8721564a20601054fb94054971fa733056",
-                "reference": "7b34bd8721564a20601054fb94054971fa733056",
+                "url": "https://api.github.com/repos/BlackFoxFire/framework/zipball/0f55a0cadf426ae876f9488911075e2eae12ade6",
+                "reference": "0f55a0cadf426ae876f9488911075e2eae12ade6",
                 "shasum": ""
             },
             "require": {
-                "composer": "^2.6",
                 "php": "^8.2",
                 "twig/twig": "^3.14"
             },
@@ -51,9 +50,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BlackFoxFire/framework/issues",
-                "source": "https://github.com/BlackFoxFire/framework/tree/1.3.2"
+                "source": "https://github.com/BlackFoxFire/framework/tree/1.3.4"
             },
-            "time": "2024-11-05T19:39:26+00:00"
+            "time": "2024-11-09T20:34:29+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -440,16 +439,16 @@
     "packages-dev": [
         {
             "name": "fakerphp/faker",
-            "version": "v1.23.1",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b"
+                "reference": "a136842a532bac9ecd8a1c723852b09915d7db50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/bfb4fe148adbf78eff521199619b93a52ae3554b",
-                "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/a136842a532bac9ecd8a1c723852b09915d7db50",
+                "reference": "a136842a532bac9ecd8a1c723852b09915d7db50",
                 "shasum": ""
             },
             "require": {
@@ -497,9 +496,9 @@
             ],
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.1"
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.24.0"
             },
-            "time": "2024-01-02T13:46:09+00:00"
+            "time": "2024-11-07T15:11:20+00:00"
         },
         {
             "name": "psr/container",
