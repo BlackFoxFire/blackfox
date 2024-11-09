@@ -13,9 +13,6 @@ use Blackfox\Application;
 
 class FrontendApplication extends Application
 {
-
-	protected string $nameSpace;
-
 	/**
 	 * Constructeur
 	 * 
