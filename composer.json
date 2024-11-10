@@ -14,6 +14,12 @@
             "Lib\\": "src/Lib/"
         }
     },
+    "scripts":{
+        "post-update-cmd": [],
+        "post-create-project-cmd": [
+            "Blackfox\\Scripts\\Launcher::postCreateProject"
+        ]
+    },
     "authors": [
         {
             "name": "Christophe Dufour",
