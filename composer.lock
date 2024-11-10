@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BlackFoxFire/framework.git",
-                "reference": "d6d9f9dc457cf3af6b78ee590b75393e06c503f8"
+                "reference": "5881d43e3d17c7f24690dbeba47248276da2cad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BlackFoxFire/framework/zipball/d6d9f9dc457cf3af6b78ee590b75393e06c503f8",
-                "reference": "d6d9f9dc457cf3af6b78ee590b75393e06c503f8",
+                "url": "https://api.github.com/repos/BlackFoxFire/framework/zipball/5881d43e3d17c7f24690dbeba47248276da2cad5",
+                "reference": "5881d43e3d17c7f24690dbeba47248276da2cad5",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "issues": "https://github.com/BlackFoxFire/framework/issues",
                 "source": "https://github.com/BlackFoxFire/framework/tree/v1.3.5"
             },
-            "time": "2024-11-10T12:08:47+00:00"
+            "time": "2024-11-10T12:37:41+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
