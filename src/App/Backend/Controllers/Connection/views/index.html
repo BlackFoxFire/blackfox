@@ -1,32 +1,31 @@
 {% extends "layout.html" %}
 
 {% block main %}
-<main>
+<main class="d-flex flex-colum align-items-center" style="height: 90vh;">
     <div class="container">
         <div class="row">
             <div class="col-4 m-auto">
-                <div class="d-flex flex-colum align-items-center" style="height: 90vh;">
-                    <div class="bg-secondary text-light text-center rounded-3 p-2 w-100">
-                        <h1 class="text-center fs-3">Zone d'administration</h1>
-                        <form method="post" class="text-secondary">
-                            <div class="form-floating mt-3">
-                                <input type="text" name="user" placeholder="Utilisateur ('admin' par defaut)" value="{{ username }}" class="form-control" required>
-                                <label for="user" class="floatingInput">Utilisateur ('admin' par defaut)</label>
-                            </div>
-                            <div class="form-floating mt-3">
-                                <input type="password" name="password" placeholder="Mot de passe ('admin' par defaut)" class="form-control" required>
-                                <label for="password" class="floatingInput">Mot de passe ('admin' par defaut)</label>
-                            </div>
-                            {% if error is defined %}
-                            <div class="bg-warning mt-3 p-2 rounded-3 text-center">
-                                Nom de compte ou mot de passe incorrect !
-                            </div>
-                            {% endif %}
-                            <div class="text-center">
-                                <button type="submit" name="submit" class="btn btn-primary mt-3">Connexion</button>
-                            </div>
-                        </form>
-                    </div>
+                <div class="bg-light border border-3 rounded-3 p-2 w-100">
+                    <h1 class="text-center text-primary fs-3">Zone d'administration</h1>
+                    <form method="post" class="text-secondary">
+                        <div class="form-floating mt-3">
+                            <input type="text" name="user" placeholder="Utilisateur ('admin' par defaut)" value="{{ username }}" class="form-control" required>
+                            <label for="user" class="floatingInput">Utilisateur ('admin' par defaut)</label>
+                        </div>
+                        <div class="form-floating mt-3">
+                            <input type="password" name="password" placeholder="Mot de passe ('admin' par defaut)" class="form-control" required>
+                            <label for="password" class="floatingInput">Mot de passe ('admin' par defaut)</label>
+                        </div>
+                        {% if error is defined %}
+                        <div class="bg-warning rounded-3 text-center text-dark mt-3 p-2">
+                            Nom de compte ou mot de passe incorrect !
+                        </div>
+                        {% endif %}
+                        <div class="text-center mt-3">
+                            <a href="{{ index }}" class="btn btn-primary" role="button">Accueil</a>
+                            <button type="submit" name="submit" class="btn btn-primary">Connexion</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

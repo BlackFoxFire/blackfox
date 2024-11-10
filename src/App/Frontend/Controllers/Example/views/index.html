@@ -1,12 +1,15 @@
 {% extends "layout.html" %}
 
 {% block main %}
-<main>
+<main class="d-flex align-items-center" style="height: 95vh;">
     <div class="container">
         <div class="row">
             <div class="col-4 m-auto">
-                <div class="d-flex flex-colum align-items-center" style="height: 90vh;">
-                    <h1 class="bg-secondary text-light text-center rounded-3 p-2 fs-3 w-100">{{ hello }}</h1>
+                <div class="card bg-light border-3 p-2">
+                    <div class="card-body text-center text-primary">
+                        <h1 class="mb-2 fs-3">{{ hello }}</h1>
+                        <a href="{{ adminArea }}" class="btn btn-primary mt-2">Administration</a>
+                    </div>
                 </div>
             </div>
         </div>
