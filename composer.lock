@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "blackfox/framework",
-            "version": "v1.4.3",
+            "version": "v1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BlackFoxFire/framework.git",
-                "reference": "6fdde348f9c3205efaa757987120118d83592fc2"
+                "reference": "36dc4df5e6db03c52f4dd9953faa53e245fb6382"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BlackFoxFire/framework/zipball/6fdde348f9c3205efaa757987120118d83592fc2",
-                "reference": "6fdde348f9c3205efaa757987120118d83592fc2",
+                "url": "https://api.github.com/repos/BlackFoxFire/framework/zipball/36dc4df5e6db03c52f4dd9953faa53e245fb6382",
+                "reference": "36dc4df5e6db03c52f4dd9953faa53e245fb6382",
                 "shasum": ""
             },
             "require": {
@@ -50,9 +50,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BlackFoxFire/framework/issues",
-                "source": "https://github.com/BlackFoxFire/framework/tree/v1.4.3"
+                "source": "https://github.com/BlackFoxFire/framework/tree/v1.4.4"
             },
-            "time": "2024-11-17T17:32:39+00:00"
+            "time": "2024-11-19T18:59:42+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
