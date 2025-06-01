@@ -11,6 +11,10 @@ namespace App\Backend\Controllers\Connection;
 
 use Blackfox\BackController;
 use Blackfox\HTTPRequest;
+use Blackfox\Config\Config;
+use Blackfox\Config\Link;
+use Blackfox\Config\Enums\AreaConfig;
+
 
 class ConnectionController extends BackController
 {
@@ -28,7 +32,7 @@ class ConnectionController extends BackController
      */
     public function executeIndex(HTTPRequest $request): void
     {
-        $config = $this->app->config()['backend'];
+        $config = Config::get(AreaConfig::Backend);
         
         if($request->formIsSubmit()) {
             $username = $request->getFromPost("user");
@@ -41,7 +45,7 @@ class ConnectionController extends BackController
 
             if($config['admin'] == $username && password_verify($password, $config['password'])) {
                 $this->app->user()->setAuthenticated(true);
-                $this->app->httpResponse()->redirect($this->app->link()['adminArea']);
+                $this->app->httpResponse()->redirect(Link::get('adminArea'));
             }
             else {
                 $this->view->setData(["error" => true]);
