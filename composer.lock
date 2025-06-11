@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "777ffc1ec1bacb694fbc4ce560f8d9bc",
+    "content-hash": "92c0c11962f05c8f6d49ce9948e045bb",
     "packages": [
         {
             "name": "blackfox/framework",
-            "version": "v1.4.7",
+            "version": "v1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BlackFoxFire/framework.git",
-                "reference": "6b0e8398acb7c6a993a0c4d65bc39ba9de3e4c09"
+                "reference": "2478b3fafc4c7bda58bbd0e9ddfdd746182f54bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BlackFoxFire/framework/zipball/6b0e8398acb7c6a993a0c4d65bc39ba9de3e4c09",
-                "reference": "6b0e8398acb7c6a993a0c4d65bc39ba9de3e4c09",
+                "url": "https://api.github.com/repos/BlackFoxFire/framework/zipball/2478b3fafc4c7bda58bbd0e9ddfdd746182f54bc",
+                "reference": "2478b3fafc4c7bda58bbd0e9ddfdd746182f54bc",
                 "shasum": ""
             },
             "require": {
@@ -50,9 +50,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BlackFoxFire/framework/issues",
-                "source": "https://github.com/BlackFoxFire/framework/tree/v1.4.7"
+                "source": "https://github.com/BlackFoxFire/framework/tree/v1.4.8"
             },
-            "time": "2025-06-01T12:10:50+00:00"
+            "time": "2025-06-11T17:56:05+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
