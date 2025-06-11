@@ -12,3 +12,4 @@ namespace App\Backend\Routes;
 use Blackfox\Router\Router;
 
 Router::set("/admin/", "Example", "index", "un, deux");
+Router::set("/admin/logout", "Example", "logout", "un, deux");

@@ -14,26 +14,9 @@ use Blackfox\Application;
 class FrontendApplication extends Application
 {
 	/**
-	 * Constructeur
-	 * 
-	 * @param string $rootDir
-	 * Dossier racine de l'application
-	 */
-	public function __construct(string $rootDir)
-	{
-		$this->name = "Frontend";
-		parent::__construct($rootDir, __DIR__, __NAMESPACE__);
-	}
-
-	/**
-	 * Méthodes
-	 */
-	
-	/**
 	 * Lance l'application
 	 * 
 	 * @return void
-	 * Ne retourne aucune valeur
 	 */
 	public function run(): void
 	{

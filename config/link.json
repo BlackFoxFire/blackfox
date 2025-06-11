@@ -1,4 +1,5 @@
 {
     "index": "/",
-    "adminArea": "/admin/"
+    "adminArea": "/admin/",
+    "logout": "/admin/logout"
 }
