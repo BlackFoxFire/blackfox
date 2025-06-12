@@ -15,16 +15,11 @@ use Blackfox\HTTPRequest;
 class ExampleController extends BackController
 {
     /**
-	 * Méthodes
-	 */
-
-    /**
      * Affiche la page d'exemple
      * 
      * @param HTTPRequest $request
-     * Objet HTTPRequest représentant une requête html
+     * 
      * @return void
-	 * Ne retourne aucune valeur
      */
     protected function executeIndex(HTTPRequest $request): void
     {

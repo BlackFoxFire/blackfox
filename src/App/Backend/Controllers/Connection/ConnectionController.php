@@ -15,20 +15,15 @@ use Blackfox\Config\Config;
 use Blackfox\Config\Link;
 use Blackfox\Config\Enums\AreaConfig;
 
-
 class ConnectionController extends BackController
 {
-    /**
-	 * Méthodes
-	 */
 
     /**
      * Affiche la page de connexion
      * 
      * @param HTTPRequest $request
-     * Objet HTTPRequest représentant une requête html
+     * 
      * @return void
-	 * Ne retourne aucune valeur
      */
     public function executeIndex(HTTPRequest $request): void
     {
